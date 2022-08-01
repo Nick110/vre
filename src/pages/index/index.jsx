@@ -29,7 +29,7 @@ export default function Index(props) {
 
         </button>
         <button
-          className="btn bg-purple-600 hover:bg-purple-100 text-white ml-3"
+          className="btn bg-purple-600 hover:bg-purple-800 text-white ml-3"
           onClick={() => dispatch(decrement({ value: amount }))}
         >
           -
