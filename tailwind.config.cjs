@@ -2,11 +2,14 @@
 module.exports = {
   content: [
     './index.html',
-    './src/**/*.{js,ts,jsx,tsx}', // 用到tailwind的地方
+    './src/**/*.{vue,js,ts,jsx,tsx}', // 用到tailwind的地方
   ],
   darkMode: 'media',
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    // eslint-disable-next-line global-require
+    require('@tailwindcss/line-clamp'),
+  ],
 };

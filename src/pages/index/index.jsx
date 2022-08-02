@@ -26,7 +26,6 @@ export default function Index(props) {
           onClick={() => dispatch(increment({ value: amount }))}
         >
           +
-
         </button>
         <button
           className="btn bg-purple-600 hover:bg-purple-800 text-white ml-3"
@@ -37,6 +36,9 @@ export default function Index(props) {
       </div>
       <div className="text-cyan-400 text-xl hover:text-cyan-800">
         {value}
+      </div>
+      <div className="w-40 line-clamp-3">
+        实付款几哈就很烦接电话生发剂看哈第三方黄金时代环境法受打击开发哈萨登记卡合法手机等哈飞机卡卡卡卡卡卡卡卡卡
       </div>
     </div>
   );
