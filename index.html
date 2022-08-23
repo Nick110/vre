@@ -9,5 +9,15 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      function pageAdapt() {
+        let width = document.documentElement.clientWidth < 468.75 ? document.documentElement.clientWidth : 468.75;
+        document.querySelector('html').style.fontSize = `${width *(16 / 375)}px`
+      };
+      pageAdapt();
+      window.addEventListener('resize', function () {
+        pageAdapt();
+      });
+    </script>
   </body>
 </html>

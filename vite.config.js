@@ -12,6 +12,7 @@ export default defineConfig({
       '@': path.resolve(__dirname, 'src'),
     },
   },
+  base: './',
   css: {
     preprocessorOptions: {
       // 预编译支持 less
