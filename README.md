@@ -1,3 +1,6 @@
+# vre
+
+> Vite + React + Eslint
 
 ## ESLINT
 `npx eslint --init` 初始化eslint配置
